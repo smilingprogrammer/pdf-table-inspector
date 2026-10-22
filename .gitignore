@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.streamlit/secrets.toml
+.DS_Store
+output/
+tmp/
+dist/
+.coverage
+.pytest_cache/
+
+# Local conversation and design notes
+chat-export.md
+.hallmark/

@@ -1,0 +1,235 @@
+{
+  "fixture": "four-column",
+  "page_size": [
+    612,
+    792
+  ],
+  "engine": "pdfplumber-lines",
+  "coordinate_system": "PDF points, top-left origin",
+  "pages": [
+    {
+      "tables": [
+        {
+          "cells": [
+            {
+              "raw_text": "AccountA",
+              "row": 0,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "bbox": [
+                60,
+                180,
+                210,
+                204
+              ]
+            },
+            {
+              "raw_text": "1,000.25",
+              "row": 0,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "bbox": [
+                210,
+                180,
+                310,
+                204
+              ]
+            },
+            {
+              "raw_text": "2,000.50",
+              "row": 0,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "bbox": [
+                310,
+                180,
+                410,
+                204
+              ]
+            },
+            {
+              "raw_text": "1,000.25",
+              "row": 0,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "bbox": [
+                410,
+                180,
+                510,
+                204
+              ]
+            },
+            {
+              "raw_text": "AccountB",
+              "row": 1,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "bbox": [
+                60,
+                204,
+                210,
+                228
+              ]
+            },
+            {
+              "raw_text": "3,000.75",
+              "row": 1,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "bbox": [
+                210,
+                204,
+                310,
+                228
+              ]
+            },
+            {
+              "raw_text": "4,000.25",
+              "row": 1,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "bbox": [
+                310,
+                204,
+                410,
+                228
+              ]
+            },
+            {
+              "raw_text": "3,000.75",
+              "row": 1,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "bbox": [
+                410,
+                204,
+                510,
+                228
+              ]
+            },
+            {
+              "raw_text": "AccountC",
+              "row": 2,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "bbox": [
+                60,
+                228,
+                210,
+                252
+              ]
+            },
+            {
+              "raw_text": "5,000.50",
+              "row": 2,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "bbox": [
+                210,
+                228,
+                310,
+                252
+              ]
+            },
+            {
+              "raw_text": "6,000.75",
+              "row": 2,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "bbox": [
+                310,
+                228,
+                410,
+                252
+              ]
+            },
+            {
+              "raw_text": "5,000.50",
+              "row": 2,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "bbox": [
+                410,
+                228,
+                510,
+                252
+              ]
+            },
+            {
+              "raw_text": "TotalSum",
+              "row": 3,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "bbox": [
+                60,
+                252,
+                210,
+                276
+              ]
+            },
+            {
+              "raw_text": "9,001.50",
+              "row": 3,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "bbox": [
+                210,
+                252,
+                310,
+                276
+              ]
+            },
+            {
+              "raw_text": "12,001.50",
+              "row": 3,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "bbox": [
+                310,
+                252,
+                410,
+                276
+              ]
+            },
+            {
+              "raw_text": "9,001.50",
+              "row": 3,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "bbox": [
+                410,
+                252,
+                510,
+                276
+              ]
+            }
+          ],
+          "row_count": 4,
+          "column_count": 4,
+          "bbox": [
+            60,
+            180,
+            510,
+            276
+          ]
+        }
+      ]
+    }
+  ]
+}

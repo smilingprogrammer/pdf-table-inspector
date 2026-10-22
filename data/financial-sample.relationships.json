@@ -1,0 +1,389 @@
+{
+  "name": "financial-sample-explicit-v1",
+  "page": 1,
+  "dimensions": [
+    43,
+    3
+  ],
+  "number_profile": "comma-dot",
+  "dash_policy": "zero_for_arithmetic_only",
+  "difference_convention": "displayed minus computed, in displayed units; no tolerance or correction",
+  "columns": [
+    {
+      "index": 1,
+      "period": "previous"
+    },
+    {
+      "index": 2,
+      "period": "current"
+    }
+  ],
+  "rows": [
+    {
+      "id": "row-0",
+      "index": 0,
+      "expected_label": "資産の部",
+      "role": "section"
+    },
+    {
+      "id": "row-1",
+      "index": 1,
+      "expected_label": "流動資産",
+      "role": "section"
+    },
+    {
+      "id": "row-2",
+      "index": 2,
+      "expected_label": "現金及び預金",
+      "role": "asset"
+    },
+    {
+      "id": "row-3",
+      "index": 3,
+      "expected_label": "受取手形",
+      "role": "asset"
+    },
+    {
+      "id": "row-4",
+      "index": 4,
+      "expected_label": "売掛金",
+      "role": "asset"
+    },
+    {
+      "id": "row-5",
+      "index": 5,
+      "expected_label": "電子記録債権",
+      "role": "asset"
+    },
+    {
+      "id": "row-6",
+      "index": 6,
+      "expected_label": "商品及び製品",
+      "role": "asset"
+    },
+    {
+      "id": "row-7",
+      "index": 7,
+      "expected_label": "仕掛品",
+      "role": "asset"
+    },
+    {
+      "id": "row-8",
+      "index": 8,
+      "expected_label": "原材料及び貯蔵品",
+      "role": "asset"
+    },
+    {
+      "id": "row-9",
+      "index": 9,
+      "expected_label": "短期貸付金",
+      "role": "asset"
+    },
+    {
+      "id": "row-10",
+      "index": 10,
+      "expected_label": "その他",
+      "role": "asset"
+    },
+    {
+      "id": "row-11",
+      "index": 11,
+      "expected_label": "貸倒引当金",
+      "role": "asset"
+    },
+    {
+      "id": "row-12",
+      "index": 12,
+      "expected_label": "流動資産合計",
+      "role": "subtotal"
+    },
+    {
+      "id": "row-13",
+      "index": 13,
+      "expected_label": "固定資産",
+      "role": "section"
+    },
+    {
+      "id": "row-14",
+      "index": 14,
+      "expected_label": "有形固定資産",
+      "role": "section"
+    },
+    {
+      "id": "row-15",
+      "index": 15,
+      "expected_label": "建物及び構築物",
+      "role": "gross"
+    },
+    {
+      "id": "row-16",
+      "index": 16,
+      "expected_label": "減価償却累計額",
+      "role": "depreciation"
+    },
+    {
+      "id": "row-17",
+      "index": 17,
+      "expected_label": "建物及び構築物（純額）",
+      "role": "net"
+    },
+    {
+      "id": "row-18",
+      "index": 18,
+      "expected_label": "機械装置及び運搬具",
+      "role": "gross"
+    },
+    {
+      "id": "row-19",
+      "index": 19,
+      "expected_label": "減価償却累計額",
+      "role": "depreciation"
+    },
+    {
+      "id": "row-20",
+      "index": 20,
+      "expected_label": "機械装置及び運搬具（純額）",
+      "role": "net"
+    },
+    {
+      "id": "row-21",
+      "index": 21,
+      "expected_label": "土地",
+      "role": "asset"
+    },
+    {
+      "id": "row-22",
+      "index": 22,
+      "expected_label": "リース資産",
+      "role": "gross"
+    },
+    {
+      "id": "row-23",
+      "index": 23,
+      "expected_label": "減価償却累計額",
+      "role": "depreciation"
+    },
+    {
+      "id": "row-24",
+      "index": 24,
+      "expected_label": "リース資産（純額）",
+      "role": "net"
+    },
+    {
+      "id": "row-25",
+      "index": 25,
+      "expected_label": "建設仮勘定",
+      "role": "asset"
+    },
+    {
+      "id": "row-26",
+      "index": 26,
+      "expected_label": "その他",
+      "role": "gross"
+    },
+    {
+      "id": "row-27",
+      "index": 27,
+      "expected_label": "減価償却累計額",
+      "role": "depreciation"
+    },
+    {
+      "id": "row-28",
+      "index": 28,
+      "expected_label": "その他（純額）",
+      "role": "net"
+    },
+    {
+      "id": "row-29",
+      "index": 29,
+      "expected_label": "有形固定資産合計",
+      "role": "subtotal"
+    },
+    {
+      "id": "row-30",
+      "index": 30,
+      "expected_label": "無形固定資産",
+      "role": "section"
+    },
+    {
+      "id": "row-31",
+      "index": 31,
+      "expected_label": "リース資産",
+      "role": "asset"
+    },
+    {
+      "id": "row-32",
+      "index": 32,
+      "expected_label": "その他",
+      "role": "asset"
+    },
+    {
+      "id": "row-33",
+      "index": 33,
+      "expected_label": "無形固定資産合計",
+      "role": "subtotal"
+    },
+    {
+      "id": "row-34",
+      "index": 34,
+      "expected_label": "投資その他の資産",
+      "role": "section"
+    },
+    {
+      "id": "row-35",
+      "index": 35,
+      "expected_label": "投資有価証券",
+      "role": "asset"
+    },
+    {
+      "id": "row-36",
+      "index": 36,
+      "expected_label": "関係会社株式",
+      "role": "asset"
+    },
+    {
+      "id": "row-37",
+      "index": 37,
+      "expected_label": "長期貸付金",
+      "role": "asset"
+    },
+    {
+      "id": "row-38",
+      "index": 38,
+      "expected_label": "退職給付に係る資産",
+      "role": "asset"
+    },
+    {
+      "id": "row-39",
+      "index": 39,
+      "expected_label": "その他",
+      "role": "asset"
+    },
+    {
+      "id": "row-40",
+      "index": 40,
+      "expected_label": "投資その他の資産合計",
+      "role": "subtotal"
+    },
+    {
+      "id": "row-41",
+      "index": 41,
+      "expected_label": "固定資産合計",
+      "role": "subtotal"
+    },
+    {
+      "id": "row-42",
+      "index": 42,
+      "expected_label": "資産合計",
+      "role": "total"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "check-12",
+      "kind": "subtotal",
+      "target": "row-12",
+      "terms": [
+        "row-2",
+        "row-3",
+        "row-4",
+        "row-5",
+        "row-6",
+        "row-7",
+        "row-8",
+        "row-9",
+        "row-10",
+        "row-11"
+      ]
+    },
+    {
+      "id": "check-17",
+      "kind": "net",
+      "target": "row-17",
+      "terms": [
+        "row-15",
+        "row-16"
+      ]
+    },
+    {
+      "id": "check-20",
+      "kind": "net",
+      "target": "row-20",
+      "terms": [
+        "row-18",
+        "row-19"
+      ]
+    },
+    {
+      "id": "check-24",
+      "kind": "net",
+      "target": "row-24",
+      "terms": [
+        "row-22",
+        "row-23"
+      ]
+    },
+    {
+      "id": "check-28",
+      "kind": "net",
+      "target": "row-28",
+      "terms": [
+        "row-26",
+        "row-27"
+      ]
+    },
+    {
+      "id": "check-29",
+      "kind": "subtotal",
+      "target": "row-29",
+      "terms": [
+        "row-17",
+        "row-20",
+        "row-21",
+        "row-24",
+        "row-25",
+        "row-28"
+      ]
+    },
+    {
+      "id": "check-33",
+      "kind": "subtotal",
+      "target": "row-33",
+      "terms": [
+        "row-31",
+        "row-32"
+      ]
+    },
+    {
+      "id": "check-40",
+      "kind": "subtotal",
+      "target": "row-40",
+      "terms": [
+        "row-35",
+        "row-36",
+        "row-37",
+        "row-38",
+        "row-39"
+      ]
+    },
+    {
+      "id": "check-41",
+      "kind": "subtotal",
+      "target": "row-41",
+      "terms": [
+        "row-29",
+        "row-33",
+        "row-40"
+      ]
+    },
+    {
+      "id": "check-42",
+      "kind": "subtotal",
+      "target": "row-42",
+      "terms": [
+        "row-12",
+        "row-41"
+      ]
+    }
+  ]
+}

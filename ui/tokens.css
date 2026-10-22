@@ -1,0 +1,24 @@
+/* Hallmark · pre-emit critique: P4 H4 E4 S5 R5 V4
+ * genre: modern-minimal · macrostructure: Workbench · theme: Coral
+ * nav: N3 side rail · footer: Ft2 inline · enrichment: none
+ * audience: financial-table reviewer · use: inspect and download · tone: simple
+ */
+:root {
+  --color-paper: #fffdf9;
+  --color-ink: #282d31;
+  --color-muted: #60686c;
+  --color-accent: #b54c3d;
+  --color-rule: #dfdfdb;
+  --font-display: system-ui, sans-serif;
+  --font-body: system-ui, sans-serif;
+  --space-workspace: 1.5rem;
+  --radius-control: 6px;
+}
+html, body { overflow-x: clip; }
+h1,h2,h3 { font-family: var(--font-display); font-style: normal; overflow-wrap: anywhere; }
+[data-testid="stMainBlockContainer"] { padding-top: var(--space-workspace); }
+[data-testid="stCaptionContainer"] { color: var(--color-muted); }
+@media (max-width: 768px) {
+  [data-testid="stHorizontalBlock"] { flex-wrap: wrap; }
+  [data-testid="stColumn"] { min-width: min(100%, 20rem); flex: 1 1 100%; }
+}
